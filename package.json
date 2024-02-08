@@ -3,9 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "npx tinacms dev -c \"astro dev --port 8080\"",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "npx tinacms build -c \"astro build --port 8080\"",
     "preview": "astro preview",
     "astro": "astro"
   },
